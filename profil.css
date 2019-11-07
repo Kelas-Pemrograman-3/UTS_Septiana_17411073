@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    font-family: Tahoma,Geneva,sans-serif;
+    color: #fff;
+    background: url(backanaaa.jpeg);
+    background-size: cover;
+}
+nav{
+    width: 50px
+    margin: auto;
+    text-align: center;
+}
+nav ul{
+    background:  rgba(44, 62, 80, 0.5);
+    padding: 0px 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+nav ul li{
+    float: left;
+}
+nav ul li:hover a{
+    background: rgb(44, 63, 80);
+}
+nav ul li a{
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+}
+.cards
+{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    height: 430px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0 auto;
+}

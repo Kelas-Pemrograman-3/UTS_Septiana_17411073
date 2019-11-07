@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    font-family: Tahoma,Geneva,sans-serif;
+    color: #fff;
+    background: url(backanaaa.jpeg);
+    background-size: cover;
+}
+nav{
+    width: 100px
+    margin: auto;
+    text-align: center;
+}
+nav ul{
+    background:  rgba(44, 62, 80, 0.5);
+    padding: 0px 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+nav ul li{
+    float: left;
+}
+nav ul li:hover a{
+    background: rgb(44, 63, 80);
+}
+nav ul li a{
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+}
+.inputdata
+{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 300px;
+    height: 500px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+form
+{
+    width: 300px;
+    text-align: center;
+}
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: white;
+}
+input[type=radio]
+{
+    border: none;
+    width: 40px;
+    background: white;
+    color: #000000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+}
+select
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: white;
+}
+select:hover
+{
+    color: white;
+    background-color: rgb(44, 63, 80);
+}
+textarea
+{
+    width: 240px;
+    height: 80px;
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-family: 'play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: white;
+}
+input[type=chekbox]
+{
+    margin: left;
+    text-align: left;
+}
+.chekbox
+{
+    text-align: left;
+    position: relative;
+    margin:6px auto;
+}
+td
+{
+    padding: 2px;
+}
+h2
+{
+    color: #000000;
+}
+.button1
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button1:hover
+{
+    color: white;
+    background:black;
+}
+.button2
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button2:hover
+{
+    color: white;
+    background:black;
+}
